@@ -1,4 +1,4 @@
-# sp25-lab1
+# sp26-lab1
 
 Open up the Pet.java file in the code editor in the GitHub browser:
 
