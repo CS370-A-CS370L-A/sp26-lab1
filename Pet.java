@@ -24,8 +24,10 @@ public class Pet {
         // Create a Pet object
         Pet pet1= new Pet("Buddy", "Dog");
         Pet maxPet = new Pet("Gary", "Snail");
+        Pet emiPet = new Pet("Hoshino", "Stoat");
 
         System.out.println("my pets name is + " + maxPet.getName());
+        System.out.println("my pets name is + " + emiPet.getName());
    
         // Print the name of the pet
         System.out.println("Pet's name is: " + pet1.getName());
