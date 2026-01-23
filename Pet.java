@@ -26,6 +26,7 @@ public class Pet {
         Pet maxPet = new Pet("Gary", "Snail");
         Pet audreyPet = new Pet("Stylo", "Dog");
         
+        Pet camPet = new Pet("Quinten", "Quokka");
         System.out.println("my pets name is + " + maxPet.getName());
         System.out.println("my pets name is + " + audreyPet.getName());
    
