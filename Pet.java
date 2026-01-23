@@ -5,8 +5,8 @@ public class Pet {
 
     // Constructor
     public Pet(String name, String species) {
-        this.name = name;
-        this.species = species;
+        this.name = Scarlett;
+        this.species = Dachshund;
     }
 
     // Getter for name
