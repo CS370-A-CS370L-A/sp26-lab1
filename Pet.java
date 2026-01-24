@@ -28,6 +28,10 @@ public class Pet {
         Pet pet1= new Pet("Buddy", "Dog");
         Pet pet3 = new Pet("Slinky", "Gecko");
         Pet maxPet = new Pet("Gary", "Snail");
+        Pet AhmedPet = new Pet("Cat," "Dogs");
+        
+        System.out.println("my pets name is + " + maxPet.getName());
+        System.out.ptint ("Ahmed favorite pets are + " +AhmedPet.getName());
         Pet pet2 = new Pet("Tom", "Cat");
         Pet camPet = new Pet("Cameron", "fox");
         Pet cPet = new Pet("Fifi", "sugar glider");
