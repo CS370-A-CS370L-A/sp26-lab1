@@ -28,6 +28,7 @@ public class Pet {
         Pet pet1= new Pet("Buddy", "Dog");
         Pet pet3 = new Pet("Slinky", "Gecko");
         Pet maxPet = new Pet("Gary", "Snail");
+        Pet pet2 = new Pet("Tom", "Cat");
         Pet camPet = new Pet("Cameron", "fox");
         Pet cPet = new Pet("Fifi", "sugar glider");
         Pet liuyiPet = new Pet("Momo", "Fish");
