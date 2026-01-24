@@ -23,6 +23,7 @@ public class Pet {
     public static void main(String[] args) {
         // Create a Pet object
         Pet pet1= new Pet("Buddy", "Dog");
+        Pet pet3 = new Pet("Slinky", "Gecko");
         Pet maxPet = new Pet("Gary", "Snail");
         Pet simonPet = new Pet("Opus", "Penguin");
 
@@ -35,5 +36,6 @@ public class Pet {
         // Print the name of the pet
         System.out.println("Simon's pet's name is: " + simonPet.getName());
         System.out.println("Pet's name is: " + pet1.getName());
+        System.out.println("Pet's name is: " + pet3.getName());
     }
 }
