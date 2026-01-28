@@ -5,8 +5,8 @@ public class Pet {
 
     // Constructor
     public Pet(String name, String species) {
-        this.name = Scarlett;
-        this.species = Dachshund;
+        this.name = name;
+        this.species = species;
     }
 
     // Getter for name
@@ -42,8 +42,9 @@ public class Pet {
         Pet myPet = new Pet("Rufus","Dog");
         Pet yukiPet= new Pet("Pum", "Iguana");
         Pet simonPet = new Pet("Opus", "Penguin");
-
+        Pet basilPet = new Pet("Smudge", "Dog");
         Pet audreyPet = new Pet("Stylo", "Dog");
+
         
         Pet camPet = new Pet("Quinten", "Quokka");
         System.out.println("my pets name is + " + maxPet.getName());
@@ -56,5 +57,6 @@ public class Pet {
         System.out.println("Devon's pet's name is: " + devonPet.getName() + ", and her pet is a: " + devonPet.getSpecies());
         System.out.println("Pet's name is: " + yukiPet.getName());
         System.out.println("Pet's name is: " + pet3.getName());
+        System.out.println("Basil's pet's name is: " + basilPet.getName());
     }
 }
