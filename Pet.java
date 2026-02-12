@@ -48,10 +48,11 @@ public class Pet {
         Pet vanPet = new Pet("Van", "Cat");
         
         Pet camPet = new Pet("Quinten", "Quokka");
+        Pet tPet = new Pet("Scrappy", "Dog");
         System.out.println("my pets name is + " + maxPet.getName());
         System.out.println("my pets name is + " + emiPet.getName());
         System.out.println("my pets name is + " + audreyPet.getName());
-   
+        System.out.println("my pets name is + " + tPet.getName());
         // Print the name of the pet
         System.out.println("Simon's pet's name is: " + simonPet.getName());
         System.out.println("Pet's name is: " + pet1.getName());
